@@ -21,7 +21,7 @@ async function login() {
     if (userExist) {
       localStorage.setItem("username", userExist.username);
       alert("تم تسجيل الدخول");
-      window.location.href = "/index.html";
+      window.location.href = "./index.html";
     } else {
       alert("username or passowrd err");
     }
